@@ -1,0 +1,26 @@
+## build outputs
+bin/
+obj/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+## user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## game assemblies (don't commit these)
+lib/
+
+## IDE folders
+.vs/
+.vscode/
+.idea/
+
+## OS files
+.DS_Store
+Thumbs.db
