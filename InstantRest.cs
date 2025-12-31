@@ -8,7 +8,7 @@ namespace InstantRest {
     public class InstantRest : BaseUnityPlugin {
         private const string PluginGUID = "red.logsqua.InstantRest";
         public const string PluginName = "InstantRest";
-        private const string PluginVersion = "0.1.0";
+        private const string PluginVersion = "0.2.0";
 
         public static ManualLogSource Log;
 

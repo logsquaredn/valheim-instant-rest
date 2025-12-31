@@ -16,7 +16,7 @@ A Valheim mod that causes the player to instantly obtain rested bonus
 From `Valheim/valheim_Data/Managed/`, copy:
 - `assembly_valheim.dll`
 
-Create a `lib` folder in this project and place both files there:
+Create a `lib` folder in this project and place the file there:
 ```bash
 mkdir lib
 # Copy assembly_valheim.dll to lib/
