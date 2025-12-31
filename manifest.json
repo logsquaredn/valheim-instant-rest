@@ -1,0 +1,7 @@
+{
+  "name": "InstantRest",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/logsquaredn/valheim-instant-rest",
+  "description": "A Valheim mod that causes the player to instantly obtain rested bonus",
+  "dependencies": []
+}

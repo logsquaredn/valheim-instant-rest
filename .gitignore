@@ -1,6 +1,7 @@
 ## build outputs
 bin/
 obj/
+pkg/
 
 ## NuGet packages
 *.nupkg

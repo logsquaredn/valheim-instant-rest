@@ -1,6 +1,6 @@
 # Valheim Instant Rest
 
-A Valheim mod that causes player to instant obtain rested bonus
+A Valheim mod that causes the player to instantly obtain rested bonus
 
 ## current features
 1. Instant rest
@@ -31,3 +31,10 @@ make build
 ## install
 
 Copy `bin/Debug/net46/instantrest.dll` to your Valheim BepInEx plugins folder
+
+## Thunderstore package
+
+```bash
+make package
+```
+
