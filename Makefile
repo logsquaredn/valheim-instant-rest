@@ -6,7 +6,7 @@ build:
 		echo "Please copy it from: Valheim/valheim_Data/Managed/assembly_valheim.dll"; \
 		exit 1; \
 	fi
-	dotnet build valheim.sln && echo "\nCopy bin/Debug/net462/DillosValheimMod.dll to your Valheim/BepInEx/plugins/ folder"
+	dotnet build InstantRest.sln && echo "\nCopy bin/Debug/net462/instantrest.dll to your Valheim/BepInEx/plugins/ folder"
 
 format:
 	dotnet format

@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net462</TargetFramework>
-    <AssemblyName>DillosValheimMod</AssemblyName>
-    <Description>A Valheim mod for Dillos</Description>
+    <AssemblyName>InstantRest</AssemblyName>
+    <Description>A Valheim mod that causes player to instantly obtain resteded bonus</Description>
     <Version>0.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
@@ -23,10 +23,6 @@
   <ItemGroup>
     <Reference Include="assembly_valheim">
       <HintPath>lib\assembly_valheim.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="Jotunn">
-      <HintPath>lib\Jotunn.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>

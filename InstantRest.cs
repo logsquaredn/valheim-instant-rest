@@ -3,11 +3,11 @@ using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 
-namespace DillosValheimMod {
+namespace InstantRest {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
-    public class DillosValheimMod : BaseUnityPlugin {
-        private const string PluginGUID = "red.logsqua.dillosvalheimmod";
-        public const string PluginName = "DillosValheimMod";
+    public class InstantRest : BaseUnityPlugin {
+        private const string PluginGUID = "red.logsqua.InstantRest";
+        public const string PluginName = "InstantRest";
         private const string PluginVersion = "0.1.0";
 
         public static ManualLogSource Log;
@@ -16,7 +16,7 @@ namespace DillosValheimMod {
             Log = Logger;
             Log.LogInfo($"{PluginName} version {PluginVersion} is loaded!");
 
-            Harmony.CreateAndPatchAll(typeof(DillosValheimMod).Assembly, PluginGUID);
+            Harmony.CreateAndPatchAll(typeof(InstantRest).Assembly, PluginGUID);
         }
     }
 
