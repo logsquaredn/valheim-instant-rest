@@ -14,7 +14,7 @@ pkg/
 *.userosscache
 *.sln.docstates
 
-## game assemblies (don't commit these)
+## game assemblies
 lib/
 
 ## IDE folders
