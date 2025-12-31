@@ -30,7 +30,7 @@ make build
 
 ## install
 
-Copy `bin/Debug/net46/instantrest.dll` to your Valheim BepInEx plugins folder
+Copy `bin/Debug/net46/InstantRest.dll` to your Valheim BepInEx plugins folder
 
 ## Thunderstore package
 
